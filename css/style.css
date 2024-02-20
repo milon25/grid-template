@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    /* gap: 5px; */
+
+}
+.container .content1{
+    background-color: green ;
+    padding: 15px;
+    grid-row: span 12;
+    /* border-radius: 2px; */
+   
+
+   
+}
+.container .content2{
+    background-color: green;
+    padding: 15px;
+    grid-column: 2/span 10 ;
+    grid-row: span 2;
+    /* border-radius: 2px; */
+   
+    
+}
+.container .content3{
+    background-color: red;
+    padding: 15px;
+    grid-row: span 2 ;
+    /* border-radius: 2px; */
+
+}
+.container .content4{
+
+    background-color: yellow;
+    padding: 15px;
+    grid-column: 2/span 5;
+    /* grid-row: 2/span 6; */
+    grid-row: 3/span 5;
+    /* border-radius: 2px; */
+   
+    
+   
+}
+.container .content5{
+    background-color: red;
+    padding: 15px;
+    grid-column: 7/span 5;
+    grid-row: 3/span 5;
+    /* border-radius: 2px; */
+   
+
+}
+.container .content6{
+    background-color: red;
+   padding: 15px;
+   grid-column: 2/span 5;
+   grid-row: 8/span 12;
+   
+
+}
+.container .content7{
+    background-color: yellow;
+    padding: 15px;
+    grid-column: 7/span 5;
+    grid-row: 8/span 12;
+    /* border-radius: 2px; */
+  
+
+}
+.container .content8{
+    background-color: green;
+    padding: 15px;
+    grid-column: 12/span 12;
+    grid-row: 3/span12;
+    /* border-radius: 2px; */
+
+}
